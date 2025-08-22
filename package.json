@@ -1,6 +1,6 @@
 {
   "name": "@wefabric/telqr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript library for handling telephone links with QR code generation on desktop devices",
   "main": "index.js",
   "module": "src/TelQr.js",
