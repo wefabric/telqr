@@ -14,7 +14,7 @@ A lightweight JavaScript library that enhances telephone links on desktop device
 ## Installation
 
 ```bash
-npm install tel-qr-handler
+npm install @wefabric/telqr
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install tel-qr-handler
 
 ```javascript
 // Import the library
-import TelQr from 'tel-qr-handler';
+import TelQr from '@wefabric/telqr';
 
 // Initialize with default settings
 document.addEventListener('DOMContentLoaded', () => {
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ### With Custom Configuration
 
 ```javascript
-import TelQr from 'tel-qr-handler';
+import TelQr from '@wefabric/telqr';
 
 document.addEventListener('DOMContentLoaded', () => {
     new TelQr({
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ### Browser Script Tag
 
 ```html
-<script src="path/to/tel-qr-handler/src/TelQr.js"></script>
+<script src="path/to/telqr/src/TelQr.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         new TelQr({
@@ -173,7 +173,7 @@ styling: {
     <p>Call us: <a href="tel:+1234567890">+1 (234) 567-8900</a></p>
     <p>Support: <a href="tel:+0987654321">+0 (987) 654-321</a></p>
     
-    <script src="path/to/tel-qr-handler.js"></script>
+    <script src="path/to/telqr.js"></script>
     <script>
         new TelQRHandler({
             scanToCallText: 'Scan with your phone to call',
