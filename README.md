@@ -175,7 +175,7 @@ styling: {
     
     <script src="path/to/tel-qr-handler.js"></script>
     <script>
-        new TelQr({
+        new TelQRHandler({
             scanToCallText: 'Scan with your phone to call',
             buttonText: 'Call Now'
         });
