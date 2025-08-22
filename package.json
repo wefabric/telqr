@@ -1,0 +1,43 @@
+{
+  "name": "tel-qr-handler",
+  "version": "1.0.0",
+  "description": "A JavaScript library for handling telephone links with QR code generation on desktop devices",
+  "main": "index.js",
+  "module": "src/TelQrHandler.js",
+  "browser": "src/TelQrHandler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qr-code",
+    "telephone",
+    "tel-link",
+    "mobile",
+    "desktop",
+    "qr",
+    "phone",
+    "call"
+  ],
+  "author": "Leo Flapper",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "qrcodejs": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wefabric/telqr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wefabric/telqr/issues"
+  },
+  "homepage": "https://github.com/wefabric/telqr#readme",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
