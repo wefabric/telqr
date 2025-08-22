@@ -1,8 +1,8 @@
 /**
- * TelQRHandler - A JavaScript class for handling telephone links with QR code generation
+ * TelQr - A JavaScript class for handling telephone links with QR code generation
  * Converts tel: links to QR codes for desktop users while preserving mobile functionality
  */
-class TelQRHandler {
+class TelQr {
     constructor(config = {}) {
         this.modal = null;
         this.backdrop = null;
@@ -246,11 +246,11 @@ class TelQRHandler {
 
 // Export for different module systems
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
-    module.exports = TelQRHandler;
+    module.exports = TelQr;
 } else if (typeof define === 'function' && define.amd) {
     define(function() {
-        return TelQRHandler;
+        return TelQr;
     });
 } else {
-    window.TelQRHandler = TelQRHandler;
+    window.TelQr = TelQr;
 }

@@ -1,4 +1,4 @@
-# TelQRHandler
+# TelQr
 
 A lightweight JavaScript library that enhances telephone links on desktop devices by displaying QR codes for easy mobile scanning. Perfect for bridging the gap between desktop and mobile phone functionality.
 
@@ -23,21 +23,21 @@ npm install tel-qr-handler
 
 ```javascript
 // Import the library
-import TelQRHandler from 'tel-qr-handler';
+import TelQr from 'tel-qr-handler';
 
 // Initialize with default settings
 document.addEventListener('DOMContentLoaded', () => {
-    new TelQRHandler();
+    new TelQr();
 });
 ```
 
 ### With Custom Configuration
 
 ```javascript
-import TelQRHandler from 'tel-qr-handler';
+import TelQr from 'tel-qr-handler';
 
 document.addEventListener('DOMContentLoaded', () => {
-    new TelQRHandler({
+    new TelQr({
         showToCallText: 'Click to call',
         scanToCallText: 'Scan with your phone to call',
         buttonText: 'Call Now',
@@ -68,10 +68,10 @@ document.addEventListener('DOMContentLoaded', () => {
 ### Browser Script Tag
 
 ```html
-<script src="path/to/tel-qr-handler/src/TelQrHandler.js"></script>
+<script src="path/to/tel-qr-handler/src/TelQr.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        new TelQRHandler({
+        new TelQr({
             scanToCallText: 'Scan to call',
             buttonText: 'Call Now'
         });
@@ -167,7 +167,7 @@ styling: {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TelQRHandler Example</title>
+    <title>TelQr Example</title>
 </head>
 <body>
     <p>Call us: <a href="tel:+1234567890">+1 (234) 567-8900</a></p>
@@ -175,7 +175,7 @@ styling: {
     
     <script src="path/to/tel-qr-handler.js"></script>
     <script>
-        new TelQRHandler({
+        new TelQr({
             scanToCallText: 'Scan with your phone to call',
             buttonText: 'Call Now'
         });

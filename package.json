@@ -1,10 +1,10 @@
 {
-  "name": "tel-qr-handler",
+  "name": "@wefabric/telqr",
   "version": "1.0.0",
   "description": "A JavaScript library for handling telephone links with QR code generation on desktop devices",
   "main": "index.js",
-  "module": "src/TelQrHandler.js",
-  "browser": "src/TelQrHandler.js",
+  "module": "src/TelQr.js",
+  "browser": "src/TelQr.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
